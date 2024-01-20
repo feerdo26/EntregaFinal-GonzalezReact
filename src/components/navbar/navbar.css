@@ -1,0 +1,44 @@
+.navbar-container {
+  margin-top: 0; /* Agrega esta línea para quitar el margen superior */
+  background-color: #4c9900;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-container h1 {
+  margin: 0;
+  font-size: 28px;
+  color: #fff;
+}
+
+.navbar-menu ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.navbar-menu li {
+  margin: 0;
+}
+
+.navbar-menu a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  font-size: 18px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color: #336600;
+  transition: background-color 0.3s;
+}
+
+.navbar-menu a:hover {
+  background-color: #4c9900;
+}
+
+.cart-widget {
+  margin-left: auto;
+}
