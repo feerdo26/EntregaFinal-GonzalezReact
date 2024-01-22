@@ -1,8 +1,26 @@
-# React + Vite
+# Proyecto de Santiago Gonzalez - Ecommerce
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+¡Bienvenido a mi proyecto de Ecommerce!
 
-Currently, two official plugins are available:
+## Descripción
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Este proyecto fue desarrollado por Santiago Gonzalez y es un ecommerce construido con tecnologías modernas para crear una aplicación web. La aplicación está principalmente construida con React y utiliza Firebase como plataforma de backend.
+
+## Tecnologías Utilizadas
+
+- **React:** Una biblioteca de JavaScript para construir interfaces de usuario.
+- **Firebase:** Una plataforma de desarrollo de aplicaciones móviles y web que ofrece diversos servicios en la nube, como almacenamiento en tiempo real y autenticación.
+- **tabler.io/icons** Fué de donde saqué los Iconos
+
+## Instalación
+
+1. Clona este repositorio: `git clone https://github.com/tu-usuario/tu-proyecto.git`
+2. Ingresa al directorio del proyecto: `cd tu-proyecto`
+3. Instala las dependencias: `npm install`
+
+## Configuración de Firebase
+
+Antes de ejecutar la aplicación, necesitarás configurar tu proyecto en Firebase.
+
+1. Crea un proyecto en [Firebase Console](https://console.firebase.google.com/).
+2. Copia la configuración de tu proyecto (las credenciales) desde la sección "Configuración del proyecto" y pégalo en el archivo `src/firebase/config.js`.
